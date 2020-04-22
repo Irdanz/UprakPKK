@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#184EB1"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/matahari5"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Weather Apps"
+        android:textSize="40dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#125BAC"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Today, April 03"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="26°"
+        android:textSize="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="20°"
+        android:textSize="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/awan"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="400dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:text="Cloudy"
+        android:textSize="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="65dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C6FB1"
+        android:layout_marginTop="400dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/awan1"
+        android:foregroundGravity="left"
+        android:layout_marginRight="280dp"
+        android:layout_marginTop="485dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="12:00"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="120dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/awan1"
+        android:foregroundGravity="left"
+        android:layout_marginRight="280dp"
+        android:layout_marginTop="340dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="12:00"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="120dp"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
